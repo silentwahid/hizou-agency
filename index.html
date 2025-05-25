@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hizou Agency</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-black font-sans">
+
+  <!-- Header -->
+<header class="header">
+    <div class="container">
+        <div class="logo">
+            <img src="2.png" alt="Hizou Agency Logo">
+        </div>
+        
+        <!-- Add the hamburger menu button -->
+        <button class="menu-toggle" aria-label="Menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        
+        <nav class="nav">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul> 
+             <div class="cta-button">
+            <a href="#contact" class="btn">Get a Quote</a>
+        </div>
+        </nav>
+      
+    </div>
+</header>
+
+  <!-- Home Section -->
+<section class="home" id="home">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Création Digitale <span>Excellence</span></h1>
+            <p>We craft stunning visuals, powerful voiceovers, and engaging UGC content to elevate your brand.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn">Our Services</a>
+                <a href="#portfolio" class="btn-outline">View Work</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="10001.jpg" alt="Digital Creation">
+        </div>
+    </div>
+</section>
+
+<section class="services" id="services">
+    <div class="container">
+        <div class="section-header">
+            <h2>Our <span>Services</span></h2>
+            <p>We transform ideas into impactful digital experiences.</p>
+        </div>
+        <div class="services-grid">
+            <!-- Service 1 -->
+            <div class="service-card">
+                <div class="service-icon">🎙️</div>
+                <h3>Voiceover</h3>
+                <p>Professional voice recordings for ads, animations, and branding in multiple languages.</p>
+            </div>
+            <!-- Service 2 -->
+            <div class="service-card">
+                <div class="service-icon">📸</div>
+                <h3>Photography</h3>
+                <p>High-quality product, portrait, and event photography to showcase your brand.</p>
+            </div>
+            <!-- Service 3 -->
+            <div class="service-card">
+                <div class="service-icon">💻</div>
+                <h3>Video Editing</h3>
+                <p>Seamless post-production with dynamic cuts, effects, and color grading.</p>
+            </div>
+            <!-- Service 4 -->
+            <div class="service-card">
+                <div class="service-icon">✨</div>
+                <h3>UGC Content</h3>
+                <p>Authentic user-generated content tailored for social media engagement.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="services-cta">
+    <a href="#contact" class="cta-btton">Let's Create Something Amazing</a>
+</div>
+</section>
+
+
+
+
+
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="section-header">
+            <h2>Our <span>Featured Work</span></h2>
+            <p>A glimpse of our best projects across all services</p>
+        </div>
+        
+        <div class="portfolio-grid">
+            <!-- Voiceover Sample -->
+            <div class="portfolio-item">
+                <div class="portfolio-media">
+                    <audio controls>
+                        <source src="voiceover-sample.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="portfolio-info">
+                    <h3>Commercial Voiceover</h3>
+                    <p>Radio ad for luxury automotive brand</p>
+                    <a href="/portfolio/voiceovers" class="view-more">View Voiceover Projects →</a>
+                </div>
+            </div>
+            
+            <!-- Photography Sample -->
+            <div class="portfolio-item">
+                <div class="portfolio-media">
+                    <img src="photography-sample.jpg" alt="Product Photography">
+                </div>
+                <div class="portfolio-info">
+                    <h3>Product Photography</h3>
+                    <p>E-commerce shoot for skincare line</p>
+                    <a href="/portfolio/photography" class="view-more">View Photography →</a>
+                </div>
+            </div>
+            
+            <!-- Video Editing Sample -->
+            <div class="portfolio-item">
+                <div class="portfolio-media">
+                    <video controls poster="video-thumbnail.jpg">
+                        <source src="editing-sample.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="portfolio-info">
+                    <h3>Brand Video</h3>
+                    <p>Corporate promo with motion graphics</p>
+                    <a href="/portfolio/video-editing" class="view-more">View Video Projects →</a>
+                </div>
+            </div>
+            
+            <!-- UGC Sample -->
+            <div class="portfolio-item">
+                <div class="portfolio-media">
+                    <img src="ugc-sample.jpg" alt="UGC Content">
+                </div>
+                <div class="portfolio-info">
+                    <h3>Social Media UGC</h3>
+                    <p>TikTok campaign for fitness app</p>
+                    <a href="/portfolio/ugc" class="view-more">View UGC Work →</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="portfolio-cta">
+            <a href="/portfolio" class="cta-button">Explore Full Portfolio</a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<section class="about" id="about">
+    <div class="container">
+        <!-- Left Column - Image -->
+        <div class="about-image">
+            <div class="image-wrapper">
+                <img src="10002.jpg" alt="Hizou Agency Team">
+                <div class="orange-overlay"></div>
+            </div>
+        </div>
+        
+        <!-- Right Column - Content -->
+        <div class="about-content">
+            <h2>Our <span>Story</span></h2>
+            <p class="subtitle">Where creativity meets digital innovation</p>
+            
+            <div class="about-text">
+                <p>Founded in 2020, Hizou Agency began as a small collective of digital artists and storytellers. Today, we've grown into a full-service creative powerhouse specializing in premium digital content creation.</p>
+                
+                <p>What sets us apart is our obsessive attention to detail and our ability to adapt to the ever-changing digital landscape. We don't just create content - we craft experiences that resonate.</p>
+                
+                <ul class="about-features">
+                    <li>
+                        <span class="orange-icon">▸</span>
+                        <span class="feature-text">100+ Successful Projects</span>
+                    </li>
+                    <li>
+                        <span class="orange-icon">▸</span>
+                        <span class="feature-text">Multilingual Creative Team</span>
+                    </li>
+                    <li>
+                        <span class="orange-icon">▸</span>
+                        <span class="feature-text">Data-Driven Creative Process</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <a href="#contact" class="cta-button">Work With Us</a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="section-header">
+            <h2>Get In <span>Touch</span></h2>
+            <p>Ready to elevate your digital presence? Reach out to start the conversation.</p>
+        </div>
+
+        <div class="contact-grid">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select>
+                            <option value="" disabled selected>Service Needed</option>
+                            <option>Voiceover</option>
+                            <option>Photography</option>
+                            <option>Video Editing</option>
+                            <option>UGC Content</option>
+                            <option>Multiple Services</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tell us about your project..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="info-card">
+                    <div class="info-icon">📧</div>
+                    <h3>Email Us</h3>
+                    <a href="mailto:contact@hizouagency.com">contact@hizouagency.com</a>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">📱</div>
+                    <h3>Call Us</h3>
+                    <a href="tel:+1234567890">+123 456 7890</a>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <h3>Visit Us</h3>
+                    <p>123 Creative St, Digital City</p>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                    <a href="#" class="social-icon">Behance</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <!-- Main Footer Content -->
+        <div class="footer-grid">
+            <!-- Brand Column -->
+            <div class="footer-brand">
+                <img src="2.png" alt="Hizou Agency" class="footer-logo">
+                <p class="footer-tagline">Création digitale excellence</p>
+                <p class="footer-about">We craft premium digital experiences through voice, visuals, and storytelling.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="footer-services">
+                <h3 class="footer-heading">Services</h3>
+                <ul>
+                    <li><a href="#">Voiceover</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Video Editing</a></li>
+                    <li><a href="#">UGC Content</a></li>
+                    <li><a href="#">Digital Strategy</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-contact">
+                <h3 class="footer-heading">Contact Us</h3>
+                <address>
+                    <p>123 Creative Avenue<br>Digital City, DC 10001</p>
+                    <p><a href="mailto:contact@hizouagency.com">contact@hizouagency.com</a></p>
+                    <p><a href="tel:+1234567890">+123 456 7890</a></p>
+                </address>
+            </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                &copy; 2023 Hizou Agency. All rights reserved.
+            </div>
+            <div class="footer-social">
+                <a href="#" aria-label="Instagram">
+                    <span class="social-icon">📸</span>
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                    <span class="social-icon">💼</span>
+                </a>
+                <a href="#" aria-label="Behance">
+                    <span class="social-icon">🎨</span>
+                </a>
+                <a href="#" aria-label="YouTube">
+                    <span class="social-icon">▶️</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.nav');
+    
+    // Toggle mobile menu
+    menuToggle.addEventListener('click', function() {
+        this.classList.toggle('active');
+        nav.classList.toggle('active');
+        
+        // Toggle body scroll when menu is open
+        if (nav.classList.contains('active')) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = '';
+        }
+    });
+    
+    // Close menu when clicking on nav links
+    const navLinks = document.querySelectorAll('.nav a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            if (window.innerWidth <= 768) {
+                menuToggle.classList.remove('active');
+                nav.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+    });
+    
+    // Close menu when resizing to desktop
+    window.addEventListener('resize', function() {
+        if (window.innerWidth > 768) {
+            menuToggle.classList.remove('active');
+            nav.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
