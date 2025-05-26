@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Portfolio | Hizou Agency</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-black font-sans">
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="2.png" alt="Hizou Agency Logo">
+      </div>
+      <button class="menu-toggle" aria-label="Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Portfolio Hero -->
+  <section class="portfolio-hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Our <span>Portfolio</span></h1>
+        <p>Explore our collection of work that showcases creativity and digital excellence</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Filter -->
+  <section class="portfolio-filter">
+    <div class="container">
+      <div class="filter-controls">
+        <button class="filter-btn active" data-filter="all">All Work</button>
+        <button class="filter-btn" data-filter="voiceover">Voiceover</button>
+        <button class="filter-btn" data-filter="photography">Photography</button>
+        <button class="filter-btn" data-filter="editing">Video Editing</button>
+        <button class="filter-btn" data-filter="ugc">UGC Content</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Grid -->
+  <section class="portfolio-grid-section">
+    <div class="container">
+      <div class="portfolio-items">
+        <!-- Voiceover Item 1 -->
+        <div class="portfolio-item" data-category="voiceover">
+          <div class="portfolio-media">
+            <audio controls>
+              <source src="portfolio/voiceover-car-ad.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <div class="portfolio-info">
+            <h3>Luxury Car Commercial</h3>
+            <p>Deep male voiceover for premium automotive brand</p>
+            <div class="portfolio-tags">
+              <span>English</span>
+              <span>Commercial</span>
+            </div>
+            <a href="portfolio-voiceover.html" class="view-more">View Project →</a>
+          </div>
+        </div>
+
+        <!-- Photography Item 1 -->
+        <div class="portfolio-item" data-category="photography">
+          <div class="portfolio-media">
+            <img src="portfolio/skincare-product.jpg" alt="Skincare Product Photography">
+          </div>
+          <div class="portfolio-info">
+            <h3>Skincare Product Line</h3>
+            <p>E-commerce photography with clean white background</p>
+            <div class="portfolio-tags">
+              <span>Product</span>
+              <span>Beauty</span>
+            </div>
+            <a href="portfolio-photography.html" class="view-more">View Project →</a>
+          </div>
+        </div>
+
+        <!-- Video Editing Item 1 -->
+        <div class="portfolio-item" data-category="editing">
+          <div class="portfolio-media">
+            <video controls poster="portfolio/corporate-video-thumb.jpg">
+              <source src="portfolio/corporate-video.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="portfolio-info">
+            <h3>Corporate Brand Video</h3>
+            <p>Editing with motion graphics and color grading</p>
+            <div class="portfolio-tags">
+              <span>Corporate</span>
+              <span>Motion Graphics</span>
+            </div>
+            <a href="portfolio-editing.html" class="view-more">View Project →</a>
+          </div>
+        </div>
+
+        <!-- UGC Item 1 -->
+        <div class="portfolio-item" data-category="ugc">
+          <div class="portfolio-media">
+            <img src="portfolio/fitness-app-ugc.jpg" alt="Fitness App UGC Content">
+          </div>
+          <div class="portfolio-info">
+            <h3>Fitness App Campaign</h3>
+            <p>User-generated content for social media marketing</p>
+            <div class="portfolio-tags">
+              <span>TikTok</span>
+              <span>Influencer</span>
+            </div>
+            <a href="portfolio-ugc.html" class="view-more">View Project →</a>
+          </div>
+        </div>
+
+        <!-- Voiceover Item 2 -->
+        <div class="portfolio-item" data-category="voiceover">
+          <div class="portfolio-media">
+            <audio controls>
+              <source src="portfolio/documentary-voice.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <div class="portfolio-info">
+            <h3>Documentary Narration</h3>
+            <p>Female voiceover for educational documentary series</p>
+            <div class="portfolio-tags">
+              <span>French</span>
+              <span>Documentary</span>
+            </div>
+            <a href="portfolio-voiceover2.html" class="view-more">View Project →</a>
+          </div>
+        </div>
+
+        <!-- Photography Item 2 -->
+        <div class="portfolio-item" data-category="photography">
+          <div class="portfolio-media">
+            <img src="portfolio/food-photography.jpg" alt="Restaurant Food Photography">
+          </div>
+          <div class="portfolio-info">
+            <h3>Gourmet Restaurant Menu</h3>
+            <p>Appetizing food photography with natural lighting</p>
+            <div class="portfolio-tags">
+              <span>Food</span>
+              <span>Lifestyle</span>
+            </div>
+            <a href="portfolio-photography2.html" class="view-more">View Project →</a>
+          </div>
+        </div>
+
+        <!-- More portfolio items would follow the same pattern -->
+      </div>
+
+      <div class="portfolio-cta">
+        <p>Want to see more of our work?</p>
+        <a href="contact.html" class="btn">Request Full Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <h2>Client <span>Testimonials</span></h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"Hizou's voiceover work brought our brand story to life with exactly the tone we envisioned. The delivery was faster than promised!"</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="clients/client1.jpg" alt="Sarah J." class="client-photo">
+            <div>
+              <h4>Sarah J.</h4>
+              <p>Marketing Director, AutoLux</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"The product photos increased our conversion rate by 30%. Their attention to detail is unmatched in the industry."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="clients/client2.jpg" alt="Michael T." class="client-photo">
+            <div>
+              <h4>Michael T.</h4>
+              <p>CEO, SkinNaturals</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <p>"Our UGC campaign generated 5x more engagement than previous efforts. Hizou understands viral content creation."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="clients/client3.jpg" alt="Amina K." class="client-photo">
+            <div>
+              <h4>Amina K.</h4>
+              <p>Social Media Manager, FitTech</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Study CTA -->
+  <section class="case-study-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>See Our <span>Case Studies</span></h2>
+        <p>Explore in-depth breakdowns of how we helped clients achieve measurable results</p>
+        <a href="case-studies.html" class="btn-outline">View Case Studies</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+<footer class="footer">
+    <div class="container">
+        <!-- Main Footer Content -->
+        <div class="footer-grid">
+            <!-- Brand Column -->
+            <div class="footer-brand">
+                <img src="2.png" alt="Hizou Agency" class="footer-logo">
+                <p class="footer-tagline">Création digitale excellence</p>
+                <p class="footer-about">We craft premium digital experiences through voice, visuals, and storytelling.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div class="footer-services">
+                <h3 class="footer-heading">Services</h3>
+                <ul>
+                    <li><a href="#">Voiceover</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Video Editing</a></li>
+                    <li><a href="#">UGC Content</a></li>
+                    <li><a href="#">Digital Strategy</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-contact">
+                <h3 class="footer-heading">Contact Us</h3>
+                <address>
+                    <p>123 Creative Avenue<br>Digital City, DC 10001</p>
+                    <p><a href="mailto:contact@hizouagency.com">contact@hizouagency.com</a></p>
+                    <p><a href="tel:+1234567890">+123 456 7890</a></p>
+                </address>
+            </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                &copy; 2025 Hizou Agency. All rights reserved.
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Portfolio Filtering
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+          // Update active button
+          filterBtns.forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+
+          const filterValue = this.getAttribute('data-filter');
+
+          // Filter items
+          portfolioItems.forEach(item => {
+            if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+              item.style.display = 'block';
+              setTimeout(() => {
+                item.style.opacity = '1';
+                item.style.transform = 'translateY(0)';
+              }, 50);
+            } else {
+              item.style.opacity = '0';
+              item.style.transform = 'translateY(20px)';
+              setTimeout(() => {
+                item.style.display = 'none';
+              }, 300);
+            }
+          });
+        });
+      });
+
+      // Initialize Isotope for masonry layout (you would need to include Isotope library)
+      // imagesLoaded('.portfolio-items', function() {
+      //   const iso = new Isotope('.portfolio-items', {
+      //     itemSelector: '.portfolio-item',
+      //     layoutMode: 'masonry'
+      //   });
+      // });
+    });
+  </script>
+</body>
+</html>
